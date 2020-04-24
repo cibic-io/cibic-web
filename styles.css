@@ -1,0 +1,202 @@
+
+
+.google-badge {
+	width: 200px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.apple-badge {
+	width: 200px;
+	display: block;
+}
+
+body {
+	margin: 0;
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 10;
+	text-align: center;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+.inicio-header {
+	font-family: fira-bold;
+	font-size: 1.9em;
+	color: white;
+}
+
+.inicio-text {
+	font-family: fira-light;
+	font-size: 0.9em;
+	color: white;
+}
+
+.inicio-logo {
+	width: 600px;
+}
+
+.feature-text-1 {
+	font-family: fira-light;
+	font-size: 0.8em;
+	color: black;
+}
+
+.feature-text-2 {
+	font-family: fira-light-bold;
+	font-size: 0.8em;
+	color: black;
+}
+
+.feature-main-img {
+	width: 400px;
+}
+
+.feature-img {
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+.valor-header {
+	font-family: fira-light;
+	font-size: 1.5em;
+	color: white;
+}
+.valor-img {
+	width: 250px;
+}
+
+.valor-text {
+	font-family: fira-italic;
+	font-size: 0.6em;
+	color: white;
+	margin-top: 2em;
+}
+
+.valor-conocer {
+	font-family: fira-light;
+	font-size: 1.0em;
+	color:white;
+}
+
+.contacto-header {
+	font-family: fira-light;
+	font-size: 1.5em;
+	color: black;
+}
+
+.contacto-text {
+	font-family: fira-light;
+	font-size: 0.7em;
+	color: black;
+}
+
+.deep-blue {
+	background-color: #42A1BE;
+	padding-top: 50px;
+}
+
+@font-face {
+	font-family: fira-light;
+	src: url(assets/fonts/fira-sans/FiraSans-Light.ttf);
+}
+
+@font-face {
+	font-family: fira-italic;
+	src: url(assets/fonts/fira-sans/FiraSans-LightItalic.ttf);
+}
+
+@font-face {
+	font-family: fira-light-bold;
+	src: url(assets/fonts/fira-sans/FiraSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: fira-bold;
+	src: url(assets/fonts/fira-sans/FiraSans-SemiBold.ttf);
+}
+
+.contact {
+	padding-top:150px;
+	padding-bottom:150px;
+	padding-left:2em;
+	padding-right:2em;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.contact .content {
+	width: 40%;
+	flex: 0 1 auto;
+}
+
+.contact .filler {
+	height: 100%;
+	flex: 1 1 auto;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.form-control {
+	width: 30%;
+}
+
+.navbar a:link {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: fira-light;
+	background-color: white;
+}
+
+.navbar a:visited {
+	color: black;
+}
+
+.navbar a:hover, a:active {
+	color: #42A1BE;
+}
+
+.navbar a:focus {
+	color: #42A1BE;
+}
+
+.header {
+	background-color: #ffffff;
+	z-index: 5;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.img-logo {
+	float: left;
+	height: 40px;
+}
+
+.navbar {
+	float: right;
+	overflow: hidden;
+	height: 40px;
+}
