@@ -1,0 +1,48 @@
+body.disabled-onepage-scroll .onepage-wrapper  section {
+	min-height: 100%;
+	height: auto;
+}
+
+body.disabled-onepage-scroll .main section .page_container {
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body.disabled-onepage-scroll  section .page_container h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+body.disabled-onepage-scroll section .page_container h2 {
+	text-align: center;
+	width: 100%;
+}
+
+body.disabled-onepage-scroll section .page_container img {
+	margin: 0 auto;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	right: 0;
+}
+
+body.disabled-onepage-scroll .topbar {
+	overflow: hidden;
+}
+
+body.disabled-onepage-scroll .img-logo {
+	margin: 0 auto;
+	float: center;
+	overflow: hidden;
+}
+
+body.disabled-onepage-scroll .feature-img-1, body.disabled-onepage-scroll .feature-img-2 {
+	max-width: 80%;
+	margin: 0 auto;
+	float: center;
+}

@@ -1,4 +1,31 @@
+@import "styles/navbar.css";
+@import "styles/mobile.css";
 
+.main {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main section.page1, section.page3 {
+	background: #42A1BE;
+}
+
+.main section.page2, section.page4 {
+	background: #FFFFFF;
+}
+
+.main section .page_container {
+	position: relative;
+	top: 10%;
+	margin: 0 auto 0;
+	max-width: 1200px;
+	z-index: 3;
+}
+
+.main section  {
+	overflow: hidden;
+}
 
 .google-badge {
 	width: 200px;
@@ -50,20 +77,31 @@ body {
 	font-family: fira-light;
 	font-size: 0.8em;
 	color: black;
+	margin-top:1em;
+	margin-bottom:1em;
+	text-align: center;
 }
 
 .feature-text-2 {
 	font-family: fira-light-bold;
 	font-size: 0.8em;
 	color: black;
+	text-align: center;
 }
 
 .feature-main-img {
 	width: 400px;
 }
 
-.feature-img {
-	width: 300px;
+.feature-img-1 {
+	max-width: 250px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+
+.feature-img-2 {
+	max-width: 250px;
 	margin-bottom: 50px;
 }
 
@@ -71,7 +109,15 @@ body {
 	font-family: fira-light;
 	font-size: 1.5em;
 	color: white;
+	text-align: center;
+	margin-bottom: 2em;
 }
+
+.valor-item {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
 .valor-img {
 	width: 250px;
 }
@@ -84,12 +130,20 @@ body {
 }
 
 .valor-conocer {
+	margin-top:60px;
+	margin-bottom:60px;
+	text-align: center;
+}
+
+.valor-conocer-text {
 	font-family: fira-light;
 	font-size: 1.0em;
 	color:white;
+	text-align: center;
 }
 
 .contacto-header {
+	margin-top: 50px;
 	font-family: fira-light;
 	font-size: 1.5em;
 	color: black;
@@ -152,51 +206,4 @@ html {
 
 .form-control {
 	width: 30%;
-}
-
-.navbar a:link {
-	float: left;
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	font-family: fira-light;
-	background-color: white;
-}
-
-.navbar a:visited {
-	color: black;
-}
-
-.navbar a:hover, a:active {
-	color: #42A1BE;
-}
-
-.navbar a:focus {
-	color: #42A1BE;
-}
-
-.header {
-	background-color: #ffffff;
-	z-index: 5;
-	padding-left: 10%;
-	padding-right: 10%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 50px;
-}
-
-.img-logo {
-	float: left;
-	height: 40px;
-}
-
-.navbar {
-	float: right;
-	overflow: hidden;
-	height: 40px;
 }
