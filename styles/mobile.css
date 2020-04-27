@@ -1,27 +1,75 @@
-body.disabled-onepage-scroll .onepage-wrapper  section {
-	min-height: 100%;
-	height: auto;
+body.disabled-onepage-scroll .topbar {
+	overflow: hidden;
 }
 
-body.disabled-onepage-scroll .main section .page_container {
-	padding: 20px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-body.disabled-onepage-scroll  section .page_container h1{
-	text-align: center;
-	font-size: 50px;
-}
-
-body.disabled-onepage-scroll section .page_container h2 {
-	text-align: center;
+body.disabled-onepage-scroll .topbar .items {
 	width: 100%;
 }
 
-body.disabled-onepage-scroll section .page_container img {
+body.disabled-onepage-scroll .topbar .items .img-logo {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+body.disabled-onepage-scroll .topbar .items .navbar {
+	width: 0%;
+	position: absolute;
+}
+
+body.disabled-onepage-scroll .onepage-wrapper  section {
+	height: 100%;
+	margin-top: 0em;
+}
+
+body.disabled-onepage-scroll .main section .page_container {
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 0em;
+}
+
+body.disabled-onepage-scroll section.page1 .page_container {
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+body.disabled-onepage-scroll section.page1 .page_container img {
 	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+body.disabled-onepage-scroll section.page1 .page_container img.inicio-logo {
+	max-width: 0%;
+}
+
+body.disabled-onepage-scroll section.page1 .page_container .inicio-header {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	font-family: fira-bold;
+	font-size: 1.9em;
+	color: white;
+	text-align: center;
+}
+
+body.disabled-onepage-scroll section.page2 .page_container .feature-text-1, body.disabled-onepage-scroll section.page2 .page_container .feature-text-2 {
+	text-align: center;
+	font-size: 0.6em;
+}
+
+body.disabled-onepage-scroll section.page2 .page_container img.feature-main-img {
+	width: 0%;
+	margin: 0 0;
+}
+
+body.disabled-onepage-scroll section.page2 .page_container img.feature-img-1, body.disabled-onepage-scroll section.page2 .page_container img.feature-img-2 {
+	margin-top: 20px;
+	width: 100%;
 }
 
 body.disabled-onepage-scroll .main section.page3 .page_container {
@@ -31,18 +79,52 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 	right: 0;
 }
 
-body.disabled-onepage-scroll .topbar {
-	overflow: hidden;
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-header {
+	margin-bottom: 15px;
+	font-size: 1em;
 }
 
-body.disabled-onepage-scroll .img-logo {
-	margin: 0 auto;
-	float: center;
-	overflow: hidden;
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-img {
+	width: 75%;
 }
 
-body.disabled-onepage-scroll .feature-img-1, body.disabled-onepage-scroll .feature-img-2 {
-	max-width: 80%;
-	margin: 0 auto;
-	float: center;
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-item {
+	width: 50%;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-text {
+	width: 75%;
+	text-align: center;
+	font-size: 0.4em;
+	margin-top: 10px;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-conocer {
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-conocer-text {
+	font-family: fira-light;
+	font-size: 0.6em;
+	color:white;
+	text-align: center;
+}
+
+body.disabled-onepage-scroll .main section.page4 .page_container {
+	padding: 0 40px;
+}
+
+body.disabled-onepage-scroll .main section.page4 .page_container .contacto-header {
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+body.disabled-onepage-scroll .main section.page4 .page_container .contacto-text {
+	font-size: 0.5em;
+}
+
+body.disabled-onepage-scroll .main section.page4 .page_container .form-group {
+	width: 600px;
 }
