@@ -19,6 +19,10 @@
 	background: #FFFFFF;
 }
 
+.main section.page5 {
+	display: flex;
+}
+
 .main section.page1 {
 	padding-top: 10%;
 }
