@@ -1,7 +1,9 @@
-@import "styles/navbar.css";
-@import "styles/mobile.css";
-@import "styles/pages.css";
-@import "styles/social.css";
+@import "navbar.css";
+@import "mobile.css";
+@import "pages.css";
+@import "social.css";
+@import "onepage-scroll.css";
+@import "equipo.css";
 
 .main {
 	float: left;
@@ -61,20 +63,20 @@ body {
 
 @font-face {
 	font-family: fira-light;
-	src: url(assets/fonts/fira-sans/FiraSans-Light.ttf);
+	src: url(../assets/fonts/fira-sans/FiraSans-Light.ttf);
 }
 
 @font-face {
 	font-family: fira-italic;
-	src: url(assets/fonts/fira-sans/FiraSans-LightItalic.ttf);
+	src: url(../assets/fonts/fira-sans/FiraSans-LightItalic.ttf);
 }
 
 @font-face {
 	font-family: fira-light-bold;
-	src: url(assets/fonts/fira-sans/FiraSans-Bold.ttf);
+	src: url(../assets/fonts/fira-sans/FiraSans-Bold.ttf);
 }
 
 @font-face {
 	font-family: fira-bold;
-	src: url(assets/fonts/fira-sans/FiraSans-SemiBold.ttf);
+	src: url(../assets/fonts/fira-sans/FiraSans-SemiBold.ttf);
 }
