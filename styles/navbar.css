@@ -9,13 +9,14 @@
 }
 
 .items {
-	margin: 0 auto;
+	margin: 0 auto 0;
 	max-width: 1200px;
 }
 
 .img-logo {
 	float: left;
 	height: 50px;
+	margin-left: 10px;
 	overflow: hidden;
 }
 
@@ -47,4 +48,17 @@
 
 .navbar a:focus {
 	color: #42A1BE;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 10;
+	text-align: center;
+}
+
+.sticky + .content {
+	padding-top: 60px;
 }
