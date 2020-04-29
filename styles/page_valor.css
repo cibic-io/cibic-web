@@ -18,7 +18,7 @@
 
 .valor-header {
 	font-family: fira-light;
-	font-size: 1.7em;
+	font-size: 4vw;
 	color: white;
 	text-align: center;
 	margin-bottom: 5vh;
@@ -53,7 +53,7 @@
 
 .valor-text {
 	font-family: fira-italic;
-	font-size: 0.6em;
+	font-size: 2vmin;
 	color: white;
 	margin-top: 1em;
 	text-align: center;
@@ -64,14 +64,14 @@
 .valor-conocer-text {
 	margin-top: 2%;
 	font-family: fira-light;
-	font-size: 1.0em;
+	font-size: 3vmin;
 	color:white;
 	align-self: center;
 }
 
 .valor-conocer-btn {
 	background-color: #142737;
-	width: 120px;
+	max-width: 120px;
 	height: 35px;
 	color: white;
 	font-size: 0.6em;
