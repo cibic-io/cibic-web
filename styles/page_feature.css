@@ -9,13 +9,13 @@
 .feature-content {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: center;
 	max-width: 700px;
 }
 
 .feature-text-1 {
 	font-family: fira-light;
-	font-size: 0.8em;
+	font-size: 1em;
 	color: black;
 	margin-top:1em;
 	margin-bottom:1em;
@@ -35,8 +35,7 @@
 }
 
 .feature-img-1, .feature-img-2 {
-	min-width: 20%;
-	max-width: 80%;
+	width: 15vw;
 	height: auto;
 	margin-right: 10%;
 }
