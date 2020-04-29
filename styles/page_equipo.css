@@ -60,3 +60,10 @@
 	width: 150px;
 	margin: 0 0;
 }
+
+#cibic-logo-equipo {
+	position: absolute;
+	top: 30px;
+	left: 5%;
+	height: 50px;
+}
