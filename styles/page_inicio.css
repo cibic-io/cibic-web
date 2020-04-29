@@ -6,6 +6,10 @@
 	flex-flow: row wrap;
 }
 
+.main section.inicio .page-container {
+	justify-content: space-evenly;
+}
+
 .inicio-content {
 	width: 50%;
 	display: block;
@@ -37,5 +41,6 @@
 }
 
 .inicio-logo {
-	width: 50%;
+	width: 35vw;
+	height: 30vw;
 }
