@@ -1,3 +1,11 @@
+body.disabled-onepage-scroll .main section.page2 {
+	padding-top: 0%;
+}
+
+body.disabled-onepage-scroll .main section.page3 {
+	padding-top: 0%;
+}
+
 body.disabled-onepage-scroll .topbar {
 	overflow: hidden;
 }
@@ -84,18 +92,27 @@ body.disabled-onepage-scroll .main section.page3 .page_container .valor-header {
 	font-size: 1em;
 }
 
-body.disabled-onepage-scroll .main section.page3 .page_container .valor-img {
-	width: 75%;
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-row {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: left;
+	overflow-x: scroll;
 }
 
 body.disabled-onepage-scroll .main section.page3 .page_container .valor-item {
-	width: 50%;
+	flex: 0 0 auto;
+	width: 250px;
+	margin: 10px 20px;
+}
+
+body.disabled-onepage-scroll .main section.page3 .page_container .valor-img {
+	width: 100%;
 }
 
 body.disabled-onepage-scroll .main section.page3 .page_container .valor-text {
-	width: 75%;
+	width: 100%;
 	text-align: center;
-	font-size: 0.4em;
+	font-size: 0.7em;
 	margin-top: 10px;
 }
 
@@ -127,4 +144,33 @@ body.disabled-onepage-scroll .main section.page4 .page_container .contacto-text 
 
 body.disabled-onepage-scroll .main section.page4 .page_container .form-group {
 	width: 600px;
+}
+
+body.disabled-onepage-scroll .main section.page4 .page_container .contacto-text {
+	width: 100%;
+}
+
+body.disabled-onepage-scroll .main section.page4 .footer-bar {
+	height: 0;
+	overflow: hidden;
+}
+
+body.disabled-onepage-scroll .main section.page4 .contacto-btn {
+	float: left;
+}
+
+body.disabled-onepage-scroll .main section.page4 .footer-copy {
+	height: 0;
+	overflow: hidden;
+}
+
+body.disabled-onepage-scroll .main section.page5 .equipo-page {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-y: auto;
+	height: 0px;
+}
+
+body.disabled-onepage-scroll .equipo-row {
+	flex: 0 0 auto;
 }

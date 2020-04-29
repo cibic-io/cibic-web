@@ -1,9 +1,12 @@
 @import "navbar.css";
 @import "mobile.css";
-@import "pages.css";
+@import "page_inicio.css";
+@import "page_feature.css";
+@import "page_valor.css";
+@import "page_contact.css";
+@import "page_equipo.css";
 @import "social.css";
 @import "onepage-scroll.css";
-@import "equipo.css";
 
 .main {
 	float: left;
@@ -11,48 +14,10 @@
 	margin: 0 auto;
 }
 
-.main section.page1, section.page3 {
-	background: #42A1BE;
-}
-
-.main section.page2, section.page4, section.page5 {
-	background: #FFFFFF;
-}
-
-.main section.page5 {
-	display: flex;
-}
-
-.main section.page1 {
-	padding-top: 10%;
-}
-
-.main section.page2 {
-	padding-top: 8%;
-}
-
-.main section.page3 {
-	padding-top: 5%;
-}
-
-.main section.page4 {
-	padding-top: 2%;
-}
-
-.main section.page5 {
-	padding-top: 4%;
-}
-
-.main section .page_container {
-	position: relative;
-	top: 10%;
-	margin: 0 auto 0;
+.page-container {
 	max-width: 1200px;
-	z-index: 3;
-}
-
-.main section  {
-	overflow: hidden;
+	display: flex;
+	margin: auto auto;
 }
 
 html {
