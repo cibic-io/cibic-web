@@ -40,11 +40,12 @@
 
 .equipo-item {
 	margin: 0 20px;
-	max-width: 200px;
+	max-width: 180px;
+	margin-bottom: 30px;
 }
 
 .equipo-img {
-	width: 150px;
+	width: 100px;
 	margin-bottom: 10px;
 }
 
@@ -54,10 +55,10 @@
 
 .equipo-text {
 	font-family: fira-italic;
-	font-size: 15px;
+	font-size: 0.5em;
 	color: black;
 	text-align: center;
-	width: 150px;
+	width: 100px;
 	margin: 0 0;
 }
 
