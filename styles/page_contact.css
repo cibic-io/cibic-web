@@ -1,5 +1,5 @@
 .contact {
-	background: white;
+	background: #ffffff;
 	width: 100vw;
 	height: 100vh;
 }
@@ -24,12 +24,17 @@
 	width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+	.contacto-header {
+		font-size: 1em;
+	}
+}
 .contacto-text {
 	font-family: fira-light;
 	font-size: 0.6em;
 	color: black;
 	min-width: 250px;
-	width: 40%;
+	max-width: 400px;
 }
 
 .contacto-btn {

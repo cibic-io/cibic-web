@@ -14,15 +14,16 @@
 	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
 </head>
 <body>
-	<div class="w3-top topbar">
-		<div class="items">
-			<a href="index.html"><img class="img-logo" src="assets/logo.png" alt="cibic-logo"></a>
-			<div class="navbar w3-hide-small">
-				<a href="#inicio">INICIO</a>
-				<a href="#feature">FUNCIONALIDADES</a>
-				<a href="#value">VALORES</a>
-				<a href="#contact">CONTACTO</a>
-			</div>
+	<div class="header text-center w3-hide-small">
+		<a href="index.html"><img class="header-logo" src="assets/logo.png" alt="cibic-logo"></a>
+	</div>
+	<div id="topbar">
+		<a href="index.html"><img id="img-logo" src="assets/logo.png" alt="cibic-logo"></a>
+		<div id="menu-items" class="w3-hide-small">
+			<a href="#inicio">INICIO</a>
+			<a href="#feature">FUNCIONALIDADES</a>
+			<a href="#value">VALORES</a>
+			<a href="#contact">CONTACTO</a>
 		</div>
 
 		<!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -43,6 +44,7 @@
 	</nav>
 
 
+	<div class="content">
 	<div class="w3-container inicio" id="inicio">
 		<div class="w3-row" style="margin: auto">
 			<div class="w3-half w3-mobile w3-container">
@@ -149,6 +151,7 @@
 		</div>
 		<p class="footer-copy">Cibic 2020 &#169 Todos los derechos reservados</p>
 	</div>
+	</div>
 
 	<script>
 		// Toggle between showing and hiding the sidebar when clicking the menu icon
@@ -166,7 +169,35 @@
 		function w3_close() {
 			mySidebar.style.display = "none";
 		}
+
 		w3_close();
+
+		</script>
+		<script>
+
+		// When the user scrolls the page, execute myFunction
+		window.onscroll = function() {myFunction()};
+
+		// Get the navbar
+		var navbar = document.getElementById("topbar");
+		var logo = document.getElementById("img-logo");
+		var menu_items = document.getElementById("menu-items");
+
+		// Get the offset position of the navbar
+		var sticky = navbar.offsetTop;
+
+		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+				logo.style.display = "block";
+				menu_items.classList.add("menu-sticky");
+			} else {
+				navbar.classList.remove("sticky");
+				logo.style.display = "none";
+				menu_items.classList.remove("menu-sticky");
+			}
+		}
 	</script>
 	</body>
 </html>
