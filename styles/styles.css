@@ -5,20 +5,10 @@
 @import "page_valor.css";
 @import "page_contact.css";
 @import "page_equipo.css";
+@import "footer.css";
 @import "social.css";
-@import "onepage-scroll.css";
+@import "w3.css";
 
-.main {
-	float: left;
-	width: 100%;
-	margin: 0 auto;
-}
-
-.page-container {
-	max-width: 1200px;
-	display: flex;
-	margin: auto auto;
-}
 
 html {
 	scroll-behavior: smooth;

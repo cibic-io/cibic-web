@@ -1,13 +1,10 @@
-.main section.inicio {
+.inicio {
 	background: #42A1BE;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
-	flex-flow: row wrap;
-}
-
-.main section.inicio .page-container {
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-content: center;
 }
 
 .inicio-content {
@@ -41,6 +38,5 @@
 }
 
 .inicio-logo {
-	width: 35vw;
-	height: 30vw;
+	max-width: 100%;
 }

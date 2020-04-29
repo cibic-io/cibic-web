@@ -1,20 +1,18 @@
-.main section.contact {
+.contact {
 	background: white;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	width: 100vw;
+	height: 100vh;
 }
 
 .contact-content {
+	padding: 0 10%;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-items: center;
 	justify-content: center;
+	align-content: center;
 	z-index: 5;
 }
 
@@ -28,14 +26,15 @@
 
 .contacto-text {
 	font-family: fira-light;
-	font-size: 0.7em;
+	font-size: 0.6em;
 	color: black;
+	min-width: 250px;
 	width: 40%;
 }
 
 .contacto-btn {
 	background-color: #42A1BE;
-	float: right;
+	float: left;
 	width: 80px;
 	height: 35px;
 	color: white;
@@ -46,7 +45,8 @@
 }
 
 .form-control {
-	width: 30%;
+	min-width: 100px;
+	max-width: 400px;
 	border-color: #42A1BE;
 	border: 1px solid #42A1BE;
 	border-radius: 0px;
@@ -59,10 +59,6 @@
 	font-family: fira-italic;
 	font-size: 0.5em;
 	color: grey;
-}
-
-.form-btn {
-	width: 30%;
 }
 
 select:not([multiple]) {
@@ -81,52 +77,4 @@ select:not([multiple]) {
 
 input::placeholder, textarea::placeholder {
 	font-family: fira-italic;
-}
-
-.footer-bar {
-	background-color: #42A1BE;
-	height: 20%;
-	width: 100%;
-	padding-top: 20px;
-}
-
-.footer {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-.footer p {
-	color: white;
-}
-
-.footer-sites {
-	font-size: 0.5em;
-	text-align: center;
-	margin: 0;
-}
-
-.footer-copy {
-	font-size: 0.5em;
-	position: absolute;
-	color: white;
-	bottom: 0;
-	left: 50%;
-	margin: 0;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-}
-
-.footer-store {
-	font-size: 0.5em;
-}
-
-.footer .google-badge {
-	width: 40%;
-	max-height: 20%;
-}
-
-.footer .apple-badge {
-	width: 40%;
-	max-height: 20%;
 }

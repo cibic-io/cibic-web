@@ -1,0 +1,45 @@
+.footer-bar {
+	background-color: #42A1BE;
+	width: 100%;
+}
+
+.footer {
+	max-width: 1200px;
+	margin: 15px auto;
+}
+
+.footer p {
+	color: white;
+}
+
+.footer-sites {
+	font-size: 0.5em;
+	text-align: center;
+	margin: 0;
+}
+
+.footer-copy {
+	color: white;
+	position: relative;
+	font-size: 0.5em;
+	text-align: center;
+}
+
+.footer-store {
+	font-size: 0.5em;
+}
+
+.footer .google-badge {
+	width: 40%;
+	max-height: 20%;
+}
+
+.footer .apple-badge {
+	width: 40%;
+	max-height: 20%;
+}
+
+.footer .instagram-badge {
+	width: 40%;
+	max-height: 20%;
+}
