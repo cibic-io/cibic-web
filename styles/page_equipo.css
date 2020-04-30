@@ -39,14 +39,18 @@
 }
 
 .equipo-item {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 150px;
 	margin: 0 20px;
-	max-width: 180px;
 	margin-bottom: 30px;
 }
 
 .equipo-img {
-	width: 100px;
 	margin-bottom: 10px;
+	width: 100%;
 }
 
 .equipo-img:hover {
@@ -54,11 +58,11 @@
 }
 
 .equipo-text {
+	width: 100%;
 	font-family: fira-italic;
 	font-size: 0.5em;
 	color: black;
 	text-align: center;
-	width: 100px;
 	margin: 0 0;
 }
 
